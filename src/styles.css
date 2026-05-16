@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #0d1117; /* Fondo negro azulado */
+  color: #ffffff;            /* Texto blanco */
+  padding: 20px;
+}
+
+/* Enlaces del menú */
+nav a {
+  color: #58a6ff;            /* Azul claro */
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+nav a:hover {
+  color: #1f6feb;            /* Azul más oscuro al pasar el mouse */
+}
+
+/* Bloques de proyectos o información */
+.bloque {
+  background-color: #161b22; /* Gris oscuro */
+  border: 1px solid #30363d; /* Borde sutil */
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+
+.azul {
+  color: #58a6ff;
+}
