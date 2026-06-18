@@ -1,0 +1,11 @@
+{
+    "proyectos": [
+        {
+            "id": 1,
+            "nombre": "Proyecto 1",
+            "descripcion": "Descripción del proyecto 1",
+            "tecnologias": ["React", "Node.js"],
+            "url":"https://github.com/sntib/portafolio.-santibob.git "
+        }
+    ]
+}

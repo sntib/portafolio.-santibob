@@ -1,0 +1,49 @@
+main{
+    max-width:1200px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+h2{
+    text-align:center;
+    color:#1e3a8a;
+    margin-bottom:30px;
+    font-size:2rem;
+}
+
+.projects-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:16px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#2563eb;
+    margin-bottom:12px;
+}
+
+.card p{
+    margin-bottom:15px;
+    line-height:1.6;
+}
+
+.tech{
+    background:#dbeafe;
+    color:#1e40af;
+    padding:6px 12px;
+    border-radius:20px;
+    font-size:.9rem;
+    font-weight:600;
+}
